@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TE AMO ❤️</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:linear-gradient(135deg,#ff758c,#ff7eb3,#ffc3a0);
+    color:#fff;
+    text-align:center;
+    overflow-x:hidden;
+}
+
+section{
+    min-height:100vh;
+    padding:80px 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+    font-size:3rem;
+    margin-bottom:20px;
+    text-shadow:0 4px 15px rgba(0,0,0,.2);
+}
+
+h2{
+    font-size:1.8rem;
+    margin-bottom:30px;
+}
+
+h3{
+    font-size:1.1rem;
+    margin-bottom:10px;
+}
+
+p{
+    max-width:800px;
+    line-height:1.8;
+    font-size:0.95rem;
+}
+
+.hero img{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:25px;
+    margin:25px 0;
+    border:4px solid rgba(255,255,255,.4);
+    box-shadow:0 10px 35px rgba(0,0,0,.25);
+}
+
+#counter{
+    margin-top:25px;
+    font-size:1.3rem;
+    font-weight:600;
+    background:rgba(255,255,255,.15);
+    padding:15px 25px;
+    border-radius:20px;
+    backdrop-filter:blur(10px);
+}
+
+.timeline{
+    width:100%;
+    max-width:900px;
+}
+
+.event{
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(15px);
+    padding:25px;
+    margin:20px 0;
+    border-radius:20px;
+    text-align:left;
+    border-left:5px solid rgba(255,255,255,.5);
+    transition:.3s;
+}
+
+.event:hover{
+    transform:translateY(-5px);
+}
+
+.event img{
+    width:100%;
+    max-width:200px;
+    height:auto;
+    object-fit:cover;
+    border-radius:15px;
+    margin:15px 0;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.gallery img{
+    width:280px;
+    height:280px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:.4s;
+    box-shadow:0 8px 25px rgba(0,0,0,.2);
+}
+
+.gallery img:hover{
+    transform:scale(1.08);
+}
+
+button{
+    margin-top:25px;
+    padding:15px 35px;
+    border:none;
+    border-radius:50px;
+    background:white;
+    color:#ff4f81;
+    font-size:1rem;
+    font-weight:700;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.08);
+}
+
+.hidden{
+    display:none;
+}
+
+#secret{
+    margin-top:30px;
+    max-width:800px;
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(15px);
+    padding:35px;
+    border-radius:25px;
+    animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+body::before,
+body::after{
+    content:"❤️";
+    position:fixed;
+    font-size:2rem;
+    opacity:.15;
+    animation:float 8s infinite linear;
+    pointer-events:none;
+}
+
+body::before{
+    left:10%;
+}
+
+body::after{
+    left:80%;
+    animation-delay:4s;
+}
+
+@keyframes float{
+    from{
+        transform:translateY(100vh);
+    }
+    to{
+        transform:translateY(-100px);
+    }
+}
+
+@media(max-width:768px){
+
+    h1{
+        font-size:2.5rem;
+    }
+
+    h2{
+        font-size:2rem;
+    }
+
+    .hero img{
+        width:220px;
+        height:220px;
+    }
+
+    .gallery img{
+        width:90%;
+        height:auto;
+    }
+
+    #counter{
+        font-size:1rem;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<section class="hero">
+
+    <h1> EU TE AMO JULIA STRAPASSON PIMENTEL ❤️</h1>
+
+    <img src="ChatGPT Image 12 de jun. de 2026, 03_56_25.png" alt="KKKKK">
+
+    <p>
+        Fiz esse site pra treinar algumas coisas do meu curso e pra tentar mostrar o quanto eu te amo
+        provavelmente vai faltar muitos momentos na galeria que coloquei, 
+    </p>
+
+    <div id="counter"></div>
+
+</section>
+
+<section>
+
+    <h2>📅 dias que eu guardo sempre comigo</h2>
+
+    <div class="timeline">
+
+        <div class="event">
+            <h3>📱 27/05/2024</h3>
+            <p>
+                Quando você me deu um followback e fiquei insano de feliz que podia espancar alguém de tanta felicidade
+            </p>
+        </div>
+
+        <div class="event">
+            <h3>🍻 08/02/2025</h3>
+            <p>
+                A primeira vez que te vi na desgraça do bar do Didi, simplesmente a coisa mais perfeita que já vi na minha vida
+                e eu simplesmente não conseguia falar por que tava tão encantado com você e as palavras não saiam da minha cabeça, só conseguia pensar "caralho eu vou me casar com ela um dia" 
+            </p>
+        </div>
+
+        <div class="event">
+            <h3>❤️ 09/05/2025</h3>
+            <p>
+                Quando eu disse que te amava pela primeira vez com uma figurinha.
+            </p>
+        </div>
+
+        <div class="event">
+            <h3>💕 05/07/2025</h3>
+            <p>
+                Eu disse que te amava de novo e vc falou que mensagem não contava por mensagem.
+            </p>
+        </div>
+
+        <div class="event">
+            <h3>💗 21/07/2025</h3>
+            <p>
+                Essa foi a primeira vez que você falou que me amava e lembro até hoje da sensação.
+                (logo depois de sushi burger)
+            </p>
+        </div>
+
+        <div class="event">
+            <h3>💩 15/05/2025</h3>
+            <p>
+                Quando te pedi em namoro sem sequer saber como fazer isso, falando que queria me mudar pra SC
+            </p>
+        </div>
+
+                <div class="event">
+            <h3>💍 08/08/2025</h3>
+            <img src="pedido namoro.jpeg" alt="Three wedding rings displayed in an open black Pratafina jewelry box with velvet lining, held in hands showing the special moment of a marriage proposal">
+            <p>
+                O dia que eu tava com a aliança na bolsa e você não tinha ideia do que eu ia fazer e eu sem ideia de como fazer.
+                (e deu certo)
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>📸 algumas das fotos que mais gosto</h2>
+
+    <div class="gallery">
+    <img src="1.jpeg" alt="">
+    <img src="2.jpeg" alt="">
+    <img src="3.jpeg" alt="">
+    <img src="4.jpeg" alt="">
+    <img src="5.jpeg" alt="">
+    <img src="6.jpeg" alt="">
+    <img src="7.jpeg" alt="">
+    <img src="8.jpeg" alt="">
+    <img src="9.jpeg" alt="">
+    <img src="10.jpeg" alt="">
+    <img src="11.jpeg" alt="">
+    <img src="12.jpeg" alt="">
+    <img src="13.jpeg" alt="">
+    <img src="14.jpeg" alt="">
+    <img src="15.jpeg" alt="">
+    <img src="16.jpeg" alt="">
+    <img src="17.jpeg" alt="">
+    <img src="18.jpeg" alt="">
+    <img src="19.jpeg" alt="">
+    <img src="20.jpeg" alt="">
+    <img src="21.jpeg" alt="">
+    <img src="22.jpeg" alt="">
+    <img src="23.jpeg" alt="">
+    <img src="24.jpeg" alt="">
+    <img src="25.jpeg" alt="">
+    <img src="26.jpeg" alt="">
+    <img src="27.jpeg" alt="">
+    <img src="28.jpeg" alt="">
+    <img src="29.jpeg" alt="">
+    <img src="30.jpeg" alt="">
+    <img src="31.jpeg" alt="">
+    <img src="32.jpeg" alt="">
+    <img src="33.jpeg" alt="">
+    <img src="34.jpeg" alt="">
+    <img src="35.jpeg" alt="">
+    <img src="36.jpeg" alt="">
+    <img src="37.jpeg" alt="">
+    <img src="38.jpeg" alt="">
+    <img src="39.jpeg" alt="">
+    <img src="40.jpeg" alt="">
+    <img src="41.jpeg" alt="">
+    <img src="42.jpeg" alt="">
+    <img src="43.jpeg" alt="">
+    <img src="44.jpeg" alt="">
+    <img src="45.jpeg" alt="">
+    <img src="46.jpeg" alt="">
+    <img src="47.jpeg" alt="">
+    <img src="48.jpeg" alt="">
+    <img src="49.jpeg" alt="">
+    <img src="50.jpeg" alt="">
+    <img src="51.jpeg" alt="">
+    <img src="52.jpeg" alt="">
+    </div>
+
+</section>
+
+<section>
+
+    <h2>💌</h2>
+
+    <p>
+        
+    </p>
+
+    <button onclick="mostrarCarta()">
+        Clica nesse botão aqui Lady gaga
+    </button>
+
+    <div id="secret" class="hidden">
+
+        <h2>TE AMOOOOOOO</h2>
+
+        <p>
+            Eu não sei como falar, mas eu to desde o dia 11 quando acordei com essa ideia trabalhando nisso, você até reclamou da falta de atenção
+            (sim eu tava programando isso) Julia Strapasson Pimentel, aqui quem fala é o seu Labubu e eu queria dizer
+            Feliz dia dos namorados meu amor, eu te amo muito muito muito muito e espero que esse seja o primeiro de muitos,
+            cada dia que se passa tenho mais certeza que você é a mulher da minha vida e que se eu voltasse no tempo ou mudasse de vida eu sempre faria tudo de novo.
+        </p>
+
+        <p>
+           Obrigado por entrar na minha vida e me fazer tão feliz meu amor
+
+        <p>
+            
+        </p>
+
+        <h3>❤️ Eu te amo ❤️</h3>
+        <h3>❤️ DE: LABUBU ❤️</h3>
+
+    </div>
+
+</section>
+
+<script>
+
+function mostrarCarta(){
+    document.getElementById("secret").classList.remove("hidden");
+}
+
+const dataNamoro = new Date("2025-08-08T00:00:00");
+
+function atualizarContador(){
+
+    const agora = new Date();
+
+    const diferenca = agora - dataNamoro;
+
+    const dias = Math.floor(diferenca / (1000 * 60 * 60 * 24));
+    const horas = Math.floor((diferenca / (1000 * 60 * 60)) % 24);
+    const minutos = Math.floor((diferenca / (1000 * 60)) % 60);
+    const segundos = Math.floor((diferenca / 1000) % 60);
+
+    document.getElementById("counter").innerHTML =
+    `❤️ Juntos há ${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos ❤️`;
+}
+
+setInterval(atualizarContador,1000);
+atualizarContador();
+
+</script>
+
+</body>
+</html>
